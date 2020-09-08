@@ -1,0 +1,1 @@
+[ {"TN700": {"title": "Theoretical Neuroscience Research Seminar", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

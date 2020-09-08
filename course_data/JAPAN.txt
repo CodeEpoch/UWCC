@@ -1,0 +1,1 @@
+[ {"JAPAN391R": {"title": "Special Topics", "preq": ["JAPAN202R"], "preq_note": "Prereq: JAPAN 202R", "antireq": null, "terms_offered": [], "units": 0.5}}]

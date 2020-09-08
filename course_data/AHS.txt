@@ -1,0 +1,1 @@
+[ {"AHS105": {"title": "Mental Health Literacy", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

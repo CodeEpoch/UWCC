@@ -1,0 +1,1 @@
+[ {"MEDVL250R": {"title": "The History of Islamic Civilization from Late Antiquity to 1300", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

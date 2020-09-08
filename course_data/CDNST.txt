@@ -1,0 +1,1 @@
+[ {"CDNST211": {"title": "Canada: Analysis of a Country", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}, {"CDNST201": {"title": "The Indigenous Experience in Canada", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}, {"CDNST212": {"title": "Narratives of Canadian Identity", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

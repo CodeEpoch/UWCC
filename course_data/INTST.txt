@@ -1,0 +1,1 @@
+[ {"INTST101": {"title": "Introduction to International Studies", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

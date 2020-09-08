@@ -1,0 +1,1 @@
+[ {"ADMGT601": {"title": "Introduction to Financial and Managerial Accounting", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

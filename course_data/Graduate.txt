@@ -1,0 +1,1 @@
+[ {"GraduateStudie": {"title": "Research", "preq": "", "antireq": null, "terms_offered": [], "units": 0}}]

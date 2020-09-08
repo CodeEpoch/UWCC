@@ -1,18 +1,28 @@
-import {uw_api} from './uw_api';
-
-uwurl = "https://api.uwaterloo.ca/v2/"
-
-// const app = document.getElementById('root')
-// const container = document.createElement('div')
-// container.setAttribute('class', 'container')
-// app.appendChild(container)
 
 
-uw_api.get('/foodservices/menu', function(err, res) {
-    console.log(res); 
-  }); 
+const app = document.getElementById('root')
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+app.appendChild(container)
 
-// Begin accessing JSON data here
+
+function myJsFunction() {
+  var text = document.getElementById('b').value;
+
+  let raw = text.split(' ')
+  let final = "["
+  for (i = 1; i < raw.length; i++) {
+    if (i % 2 == 1) {
+      final = final + "\'" + raw[i - 1] + raw[i] + "\'" + ", "
+    }
+  }
+
+  final += ""
+
+  console.log(final)
+}
+
+// // Begin accessing JSON data here
 // if (1) {
 //     const msg = document.createElement('h1')
 //     msg.textContent = `working!`

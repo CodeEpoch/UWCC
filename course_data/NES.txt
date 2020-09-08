@@ -1,0 +1,1 @@
+[ {"NES625W": {"title": "Myth and Burial Customs in the Ancient Near East", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

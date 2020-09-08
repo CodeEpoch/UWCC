@@ -1,0 +1,1 @@
+[ {"PORT101": {"title": "Introduction to Portuguese 1", "preq": "", "antireq": "4U Portuguese", "terms_offered": [], "units": 0.5}}, {"PORT102": {"title": "Introduction to Portuguese 2", "preq": [1], "preq_note": "Prereq: PORT 101.", "antireq": "4U Portuguese", "terms_offered": [], "units": 0.5}}]

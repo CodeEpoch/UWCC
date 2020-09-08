@@ -1,0 +1,1 @@
+[ {"FILM246W": {"title": "German Film (WLU)", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

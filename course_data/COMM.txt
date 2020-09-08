@@ -1,0 +1,1 @@
+[ {"COMM433": {"title": "Income Tax for Finance students", "preq": ["COMM321"], "preq_note": "Prereq: COMM 321; Not open to Mathematics/CPA students.", "antireq": "AFM 361, BUS 357W", "terms_offered": ["F","S"], "units": 0.5}}]

@@ -1,0 +1,1 @@
+[ {"EVSY302W": {"title": "Climate Chnge and Soc (WLU)", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]

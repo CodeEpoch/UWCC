@@ -1,0 +1,1 @@
+[ {"ESL100R": {"title": "English Language in Canadian Contexts", "preq": "", "antireq": null, "terms_offered": [], "units": 0.5}}]
