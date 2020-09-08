@@ -1,47 +1,26 @@
+import {uw_api} from './uw_api';
 
 uwurl = "https://api.uwaterloo.ca/v2/"
-gurl = "https://ghibliapi.herokuapp.com/films"
-key = "7a46eb006fffa5b826764c730e17b95c"
-
-const request = require('request');
-
-const options = {
-    url: uwurl,
-    method: 'GET',
-    headers: {
-        'key': key
-    }
-};
-
-request(options, function(err, res, body) {
-    let json = JSON.parse(body);
-    console.log(json);
-});
-
-// // header("Access-Control-Allow-Origin: *")
 
 // const app = document.getElementById('root')
 // const container = document.createElement('div')
 // container.setAttribute('class', 'container')
-
 // app.appendChild(container)
 
-// var request = new XMLHttpRequest()
 
-// // Open a new connection
-// request.open('GET', gurl, true)
-// request.onload = function () {
-//   // Begin accessing JSON data here
-//   var data = JSON.parse(this.response)
-  
-//   if (request.status >= 200 && request.status < 400) {
-    
+uw_api.get('/foodservices/menu', function(err, res) {
+    console.log(res); 
+  }); 
 
-//   } else {
+// Begin accessing JSON data here
+// if (1) {
+//     const msg = document.createElement('h1')
+//     msg.textContent = `working!`
+//     app.appendChild(msg)
+// } else {
 //     const errorMessage = document.createElement('h1')
 //     errorMessage.textContent = `not working!`
 //     app.appendChild(errorMessage)
-//   }
 // }
 
-// request.send()
+
