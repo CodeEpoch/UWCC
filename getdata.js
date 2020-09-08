@@ -6,7 +6,7 @@ const dir = './course_data/'
 
 // //mongo db
 // const MongoClient = require('mongodb').MongoClient;
-// const uri = "mongodb+srv://admin:hXEoTaMdPC4yzQeP@uwcc-cluster.y65m5.azure.mongodb.net/uw_courses?retryWrites=true&w=majority";
+// const uri = "mongodb+srv:";
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 // client.connect(err => {
 //   const dbo = client.db("uw_courses").collection("uw_courses");
@@ -16,20 +16,6 @@ const dir = './course_data/'
 
 //   client.close();
 // });
-
-// Course obj
-class Course {
-    // constructor() {}
-    init(subject, catalog_number, title, preq, antireq, terms_offered, units) {
-        this.id = subject + ' ' + catalog_number
-        this.subject = subject
-        this.title = title
-        this.preq = preq
-        this.antireq = antireq
-        this.terms_offered = terms_offered
-        this.units = units
-    }
-}
 
 const Bar = new ProgressBar();
 var uw_api = new uwaterlooApi({
